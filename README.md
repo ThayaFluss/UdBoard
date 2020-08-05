@@ -9,7 +9,7 @@ VRChatでの利用を想定した, VR空間でも平面的に書ける黒板と�
 2. VRChatExample/Prefab2/VRCWorld.prefabをinspectorに配置し、VRCSDKのコントロールパネルにて、レイヤーとcollison matrixの自動セットアップ
 3. NS LookatCamera.unitypackageをインポート
 4. virtualBB.unitypackageをインポート
-5. Scenses/justBBを開く
+5. Scenes/justBBを開く
 6. Window -> Rendering -> lighting setup でベイク（これをしないと、黒板のマテリアル変更をしたときに遠近感が捉えられなくなります。）
 
 ## Components
