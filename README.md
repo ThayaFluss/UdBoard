@@ -7,10 +7,9 @@ VRChatでの利用を想定した, VR空間でも平面的に書ける黒板と�
 ## Import 
 1. VRCSDKのインポート(VRCSDK2-2020.07.15.12.38_Publicで動作確認)
 2. VRChatExample/Prefab2/VRCWorld.prefabをinspectorに配置し、VRCSDKのコントロールパネルにて、レイヤーとcollison matrixの自動セットアップ
-3. NS LookatCamera.unitypackageをインポート
-4. virtualBB.unitypackageをインポート
-5. Scenes/justBBを開く
-6. Window -> Rendering -> lighting setup でベイク（これをしないと、黒板のマテリアル変更をしたときに遠近感が捉えられなくなります。）
+3. virtualBB.unitypackageをインポート
+4. Scenes/justBBを開く
+5. Window -> Rendering -> lighting setup でベイク（これをしないと、黒板のマテリアル変更をしたときに遠近感が捉えられなくなります。）
 
 ## Components
 1. WideBoardV4.prefab : 黒板本体
