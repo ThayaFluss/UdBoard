@@ -19,7 +19,7 @@ VRChatでの利用を想定した, VR空間でも平面的に書ける黒板と�
 5. S-ChalkV4.prefab: 鋭い書き味のチョーク 
 6. S-ChalkV4Variable.prefab:　カラーピッカーに反応するS-Chalk
 7. R-Eraser.prefab: 黒板消し
-
+8. PadVket.prefab: Pickupできる黒板. 
 
 ## How to use
 - 黒板の前（白い境界枠より黒板に近いところ）に立って、チョークを握り込むと書けます。
