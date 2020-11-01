@@ -28,6 +28,17 @@ VRChatでの利用を想定した, VR空間でも平面的に書ける黒板と�
 - 右にある小さな黒板はスクリーンショット用です. 小さな黒板をtriggerすることで, 自身と上部のスクリーンに現在の黒板の状態が保存されます. 小さな黒板にVRCのカメラを近づけて撮影してください. カメラのほうを自動で向くようになっています. 小さな黒板をtriggerすることで, 上部のスクリーンに現在の黒板の状態が保存されます. 
 - 黒板の左にあるマテリアルの形をしたスイッチをtriggerするとFlusher(黒板を洗うもの)のマテリアルが変更されます.  Lightmapのベイクをしていれば, skyboxか黒板の２種類に変更できます. 変更後, Flusherのスイッチで黒板を洗うことで, 黒板の背景を変更できます. 
 
+## Tuning
+- 黒板に写す物体の調整:　以下のLayerを同じものにする. ただし、映り込みたくない物体とは異なるLayerを選ぶ. (Default Layerは広く使われており避けるのが無難)
+  - WideBoardV4/Cameraのculling mask
+  - Flusher/DarkのLayer (他のFlusherも同様)
+  - PadVket/ModeController/visual/cameraのculling mask  
+  - PadVket/ModeController/visual/Dark
+  - S-Chalk/ModeController/visual/trail_pt/trailのLayer
+  - R-Chalk/ModeController/visual/trail_pt/trailのLayer
+- チョークの書き味・文字の太さの調整
+  - R-Chalk/ModeController/visual/trail_pt/trailに使われているmaterialのshaderのパラメータwidthを調整.
+
 ## 軽量化
 - 動作が重い場合は, WideBoardV4/Screenをnon-activateにしてください. 
 
