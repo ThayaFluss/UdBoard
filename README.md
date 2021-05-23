@@ -1,4 +1,4 @@
-# Virtual BlackBoard
+# UdBoad: A Virtual BlackBoard
 
 ## What's This ? 
 VRChatでの利用を想定した, VR空間でも平面的に書ける黒板と備品(チョーク, 黒板消し, カラーピッカー等）のセットです. 早く書いても複数ユーザー間で同期します. 
